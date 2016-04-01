@@ -94,7 +94,7 @@ public class PracticalTest01Var06MainActivity extends AppCompatActivity implemen
             bPassFail.setText(getResources().getString(R.string.pass));
             passValues = true;
             if (!serviceStarted) {
-                serviceStarted = false;
+                serviceStarted = true;
                 Intent intent = new Intent(getApplicationContext(), PracticalTest01Var06Service.class);
                 intent.putExtra(Constants.WEB_VALUE, etSite.getText().toString());
                 getApplicationContext().startService(intent);

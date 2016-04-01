@@ -8,6 +8,10 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <service android:name=".PracticalTest01Var06Service"
+            android:exported="false"
+            android:enabled="true" />
         <activity
             android:name=".PracticalTest01Var06MainActivity"
             android:label="@string/app_name"
@@ -18,6 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PracticalTest01Var06SecondaryActivity"
+            android:label="@string/title_activity_practical_test01_var06_secondary"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

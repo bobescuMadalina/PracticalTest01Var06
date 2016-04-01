@@ -6,4 +6,7 @@
     <string name="pass">Pass</string>
     <string name="fail">Fail</string>
     <string name="navigate">Navigate to secondary activity</string>
+    <string name="title_activity_practical_test01_var06_secondary">
+        PracticalTest01Var06SecondaryActivity
+    </string>
 </resources>
